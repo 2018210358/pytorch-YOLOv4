@@ -14,7 +14,7 @@ hyparas.use_darknet_cfg = True
 hyparas.cfgfile = os.path.join(base_dir, 'cfg', 'ghost-shuffle-large-yolov4-nose.cfg')
 
 hyparas.batch = 64
-hyparas.subdivisions = 16
+hyparas.subdivisions = 4
 hyparas.width = 608
 hyparas.height = 608
 hyparas.channels = 3

@@ -253,7 +253,7 @@ def collate(batch):
 
 
 def train(model, device, config, epochs=5, batch_size=1, save_cp=True, log_step=20, img_scale=0.5):
-    train_dataset = Yolo_dataset(config.train_label, config, train=True, prefix='')
+    train_dataset = Yolo_dataset(config.train_label, config, train=True, prefix='/content/')
     # val_dataset = Yolo_dataset(config.val_label, config, train=False, prefix='')
 
     n_train = len(train_dataset)
